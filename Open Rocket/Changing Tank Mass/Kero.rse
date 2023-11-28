@@ -1,0 +1,22 @@
+<engine-database>
+  <engine-list>
+    <engine FDiv="10" FFix="1" FStep="-1." Isp="195.96" Itot="39.78" Type="reloadable" auto-calc-cg="0" auto-calc-mass="0"
+    avgThrust="18.082" burn-time="10." cgDiv="10" cgFix="1" cgStep="-1." code="Kero" delays="0." dia="152." exitDia="0." initWt="0."
+    len="366." mDiv="10" mFix="1" mStep="-1." massFrac="36.32" mfg="APRL" peakThrust="31." propWt="0." tDiv="10" tFix="1"
+    tStep="-1." throatDia="0.">
+      <data>
+	<eng-data cg="168.9598153" f="0." m="0." t="0."/>
+	<eng-data cg="182.597113" f="0." m="0." t="1."/>
+	<eng-data cg="195.5256094" f="0." m="0." t="2."/>
+	<eng-data cg="207.5287064" f="0." m="0." t="3."/>
+	<eng-data cg="218.2915451" f="0." m="0." t="4."/>
+	<eng-data cg="227.3381575" f="0." m="0." t="5."/>
+	<eng-data cg="233.9133039" f="0." m="0." t="6."/>
+	<eng-data cg="236.7424365" f="0." m="0." t="7."/>
+	<eng-data cg="233.4926943" f="0." m="0." t="8."/>
+	<eng-data cg="219.3866876" f="0." m="0." t="9."/>
+	<eng-data cg="182.8640409" f="0." m="0." t="10."/>
+      </data>
+    </engine>
+  </engine-list>
+</engine-database>

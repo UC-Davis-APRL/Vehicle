@@ -1,0 +1,22 @@
+<engine-database>
+  <engine-list>
+    <engine FDiv="10" FFix="1" FStep="-1." Isp="195.96" Itot="39.78" Type="reloadable" auto-calc-cg="0" auto-calc-mass="0"
+    avgThrust="0." burn-time="10." cgDiv="10" cgFix="1" cgStep="-1." code="LOX" delays="0." dia="152." exitDia="0." initWt="0."
+    len="592." mDiv="10" mFix="1" mStep="-1." massFrac="36.32" mfg="APRL" peakThrust="0." propWt="0." tDiv="10" tFix="1"
+    tStep="-1." throatDia="0.">
+      <data>
+        <eng-data cg="267.5597628" f="0." m="0." t="0."/>
+	<eng-data cg="291.4554669" f="0." m="0." t="1."/>
+	<eng-data cg="314.3920273" f="0." m="0." t="2."/>
+	<eng-data cg="336.0521215" f="0." m="0." t="3."/>
+	<eng-data cg="355.9611004" f="0." m="0." t="4."/>
+	<eng-data cg="373.3756904" f="0." m="0." t="5."/>
+	<eng-data cg="387.0626431" f="0." m="0." t="6."/>
+	<eng-data cg="394.8153203" f="0." m="0." t="7."/>
+	<eng-data cg="392.2572513" f="0." m="0." t="8."/>
+	<eng-data cg="369.3057276" f="0." m="0." t="9."/>
+	<eng-data cg="296.374289" f="0." m="0." t="10."/>
+      </data>
+    </engine>
+  </engine-list>
+</engine-database>
