@@ -1,7 +1,7 @@
 <engine-database>
   <engine-list>
     <engine FDiv="10" FFix="1" FStep="-1." Isp="195.96" Itot="39.78" Type="reloadable" auto-calc-cg="0" auto-calc-mass="1"
-    avgThrust="0." burn-time="10." cgDiv="10" cgFix="1" cgStep="-1." code="LOX" delays="0." dia="152." exitDia="0." initWt="14264.56"
+    avgThrust="0." burn-time="10." cgDiv="10" cgFix="1" cgStep="-1." code="LOX" delays="0." dia="152." exitDia="0." initWt="11500"
     len="592." mDiv="10" mFix="1" mStep="-1." massFrac="36.32" mfg="APRL" peakThrust="0." propWt="11500." tDiv="10" tFix="1"
     tStep="-1." throatDia="0.">
       <data>
