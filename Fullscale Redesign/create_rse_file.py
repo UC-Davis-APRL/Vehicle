@@ -10,7 +10,7 @@ motor_name = 'Engine775lbf'
 
 Isp = 195.96 #seconds
 Itot = 39.78 #Newton-seconds
-motor_diameter = 5.98 #in inches
+motor_diameter = 5.98 #inches
 motor_diameter = int(motor_diameter*25.4) #converts to mm which .rse needs
 motor_length = 23.3 #inches
 motor_length = int(motor_length*25.4) #converts to mm which .rse needs
