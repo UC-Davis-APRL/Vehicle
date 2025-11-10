@@ -9,3 +9,4 @@ windrose
 requests
 pytz
 simplekml
+rocketserializer

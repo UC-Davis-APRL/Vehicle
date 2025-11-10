@@ -1,0 +1,85 @@
+2025.Nov.10 12:17:34 - rocketserializer.cli - WARNING - [ork2notebook] Output folder not specified. Using '.' instead.
+2025.Nov.10 12:17:34 - rocketserializer._helpers - INFO - Successfully extracted rocket.ork from "Fullscale_S_Tanks.ork" to "."
+2025.Nov.10 12:17:34 - rocketserializer._helpers - INFO - Successfully parsed .ork file at 'rocket.ork' with 1520 datapoints
+2025.Nov.10 12:17:34 - orhelper._orhelper - INFO - Starting JVM from C:\Program Files\Java\jdk-17.0.1\bin\server\jvm.dll CLASSPATH=OpenRocket-23.09.jar
+2025.Nov.10 12:17:40 - rocketserializer.ork_extractor - INFO - Successfully initialized vectors with 1519 datapoints
+2025.Nov.10 12:17:40 - rocketserializer.ork_extractor - INFO - Initialized data vectors from the ORK file.
+2025.Nov.10 12:17:40 - rocketserializer.components.motor - INFO - Collected motor geometry: motor length and motor radius.
+2025.Nov.10 12:17:40 - rocketserializer.components.motor - INFO - The motor dry mass is 0.000 kg.
+2025.Nov.10 12:17:40 - rocketserializer.components.motor - INFO - The total propellant mass is 0.000 kg. The motor dry mass is 0.000 kg.
+2025.Nov.10 12:17:40 - rocketserializer.components.motor - INFO - Calculated motor mass properties.
+2025.Nov.10 12:17:40 - rocketserializer.components.motor - INFO - Successfully configured the motor.
+                        grain_density: 7.02237657918855e-05
+                       grain_initial_inner_radius: 0.026375
+                       grain_outer_radius: 0.05275
+                       grain_initial_height: 0.21719999999999998
+                       nozzle_radius: 0.0395625
+                       throat_radius: 0.026375
+                       dry_mass: 0
+                       dry_inertia: (0, 0, 0)
+                       center_of_dry_mass_position: 0
+                       grains_center_of_mass_position: 0
+                       grain_number: 1
+                       grain_separation: 0
+                       nozzle_position: -0.10859999999999999
+                       coordinate_system_orientation: nozzle_to_combustion_chamber
+
+2025.Nov.10 12:17:40 - rocketserializer.components.motor - INFO - The motor dry mass is 0.000 kg.
+2025.Nov.10 12:17:40 - rocketserializer.components.motor - INFO - The total propellant mass is 0.000 kg. The motor dry mass is 0.000 kg.
+2025.Nov.10 12:17:40 - rocketserializer.ork_extractor - INFO - Motor parameters retrieved.
+2025.Nov.10 12:17:40 - rocketserializer.components.id - INFO - Collected the rocket name: 'Fullscale_S_Tanks'
+2025.Nov.10 12:17:40 - rocketserializer.components.id - WARNING - No auxiliary comment was found in the file.
+2025.Nov.10 12:17:40 - rocketserializer.components.id - WARNING - No designer name was found in the file.
+2025.Nov.10 12:17:40 - rocketserializer.components.id - INFO - Identification information extracted.
+                        rocket_name: Fullscale_S_Tanks
+                       comment: None
+                       designer: None
+                       filepath: rocket.ork
+
+2025.Nov.10 12:17:40 - rocketserializer.ork_extractor - INFO - Metadata parameters retrieved.
+2025.Nov.10 12:17:40 - rocketserializer.components.environment - INFO - Collected first environment settings: latitude, longitude, elevation, wind_average, wind_turbulence, geodetic_method
+2025.Nov.10 12:17:40 - rocketserializer.components.environment - WARNING - No base temperature was found in the .ork file. The base temperature will be set to None.
+2025.Nov.10 12:17:40 - rocketserializer.components.environment - WARNING - No base pressure was found in the .ork file. The base pressure will be set to None.
+2025.Nov.10 12:17:40 - rocketserializer.components.environment - INFO - Successfully extracted all the environment settings.
+                        latitude: 28.61
+                       longitude: -80.6
+                       elevation: 0.0
+                       wind_average: 2.0
+                       wind_turbulence: 0.1
+                       geodetic_method: spherical
+                       base_temperature: None
+                       base_pressure: None
+                       date: None
+
+2025.Nov.10 12:17:40 - rocketserializer.ork_extractor - INFO - Environment parameters retrieved.
+2025.Nov.10 12:17:40 - rocketserializer.components.rocket - INFO - The maximum radius of the rocket is: 0.101600
+2025.Nov.10 12:17:40 - rocketserializer.components.rocket - INFO - Collected rocket radius.
+2025.Nov.10 12:17:40 - rocketserializer.components.rocket - INFO - Collected rocket mass.
+2025.Nov.10 12:17:40 - rocketserializer.components.rocket - INFO - The moment of inertia of the rocket is: 43.684000 (longitudinal) and 0.609000 (rotational)
+2025.Nov.10 12:17:40 - rocketserializer.components.rocket - INFO - Collected rocket inertia.
+2025.Nov.10 12:17:40 - orhelper._orhelper - INFO - JVM shut down
+2025.Nov.10 12:17:40 - orhelper._orhelper - ERROR - Exception while calling OpenRocket
+Traceback (most recent call last):
+  File "C:\Users\washa\OneDrive\Desktop\APRL\Vehicle\2025 Fullscale\.venv\Lib\site-packages\rocketserializer\cli.py", line 175, in ork2json
+    settings = ork_extractor(
+        bs=bs,
+    ...<2 lines>...
+        ork=ork,
+    )
+  File "C:\Users\washa\OneDrive\Desktop\APRL\Vehicle\2025 Fullscale\.venv\Lib\site-packages\rocketserializer\ork_extractor.py", line 64, in ork_extractor
+    rocket, motor_position = search_rocket(
+                             ~~~~~~~~~~~~~^
+        bs, datapoints, data_labels, burnout_position
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\washa\OneDrive\Desktop\APRL\Vehicle\2025 Fullscale\.venv\Lib\site-packages\rocketserializer\components\rocket.py", line 34, in search_rocket
+    center_of_propellant_mass = (
+                                ~
+        center_of_mass * (rocket_dry_mass + propellant_mass)
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        - rocket_dry_mass * center_of_dry_mass
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    ) / propellant_mass
+    ~~^~~~~~~~~~~~~~~~~
+ZeroDivisionError: float division by zero
