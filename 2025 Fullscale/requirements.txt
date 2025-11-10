@@ -1,3 +1,11 @@
 rocketpy
-math
 datetime
+requests
+Numpy
+Scipy
+Matplotlib
+netCDF4
+windrose
+requests
+pytz
+simplekml
