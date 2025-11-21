@@ -1,0 +1,21 @@
+<engine-database>
+  <engine-list>
+    <engine FDiv="10" FFix="1" FStep="-1." Type="reloadable" auto-calc-cg="0" auto-calc-mass="0"
+    burn-time="10." cgDiv="10" cgFix="1" cgStep="-1." code="LOX_Tank" delays="0." dia="203.2" initWt="12878"
+    len="278.13" mDiv="10" mFix="1" mStep="-1." mfg="APRL" propWt="7892" tDiv="10" tFix="1" tStep="-1.">
+      <data>
+        <eng-data cg="96.496" f="0.000001" m="12878." t="0."/>
+	<eng-data cg="104.73" f="0.000001" m="12089." t="1."/>
+	<eng-data cg="112.74" f="0.000001" m="11300." t="2."/>
+	<eng-data cg="120.5" f="0.000001" m="10511." t="3."/>
+	<eng-data cg="127.95" f="0.000001" m="9721.5" t="4."/>
+	<eng-data cg="135.05" f="0.000001" m="8932.2" t="5."/>
+	<eng-data cg="141.73" f="0.000001" m="8143." t="6."/>
+	<eng-data cg="147.92" f="0.000001" m="7353.7" t="7."/>
+	<eng-data cg="153.51" f="0.000001" m="6564.5" t="8."/>
+	<eng-data cg="158.37" f="0.000001" m="5775.2" t="9."/>
+	<eng-data cg="162.33" f="0.000001" m="4986." t="10."/>
+      </data>
+    </engine>
+  </engine-list>
+</engine-database>
