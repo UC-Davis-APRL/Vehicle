@@ -1,20 +1,20 @@
 <engine-database>
   <engine-list>
     <engine FDiv="10" FFix="1" FStep="-1." Type="reloadable" auto-calc-cg="0" auto-calc-mass="0"
-    burn-time="10." cgDiv="10" cgFix="1" cgStep="-1." code="Kero_Tank" delays="0." dia="203.2" initWt="10611"
-    len="278.13" mDiv="10" mFix="1" mStep="-1." mfg="APRL" propWt="5625" tDiv="10" tFix="1" tStep="-1.">
+    burn-time="10." cgDiv="10" cgFix="1" cgStep="-1." code="Kero_Tank" delays="0." dia="203.2" initWt="7417.4"
+    len="295.275" mDiv="10" mFix="1" mStep="-1." mfg="APRL" propWt="4300.7" tDiv="10" tFix="1" tStep="-1.">
       <data>
-        <eng-data cg="77.587" f="0.000001" m="10611." t="0."/>
-	<eng-data cg="85.736" f="0.000001" m="10048." t="1."/>
-	<eng-data cg="93.697" f="0.000001" m="9485.6" t="2."/>
-	<eng-data cg="101.45" f="0.000001" m="8923.2" t="3."/>
-	<eng-data cg="108.96" f="0.000001" m="8360.7" t="4."/>
-	<eng-data cg="116.2" f="0.000001" m="7798.3" t="5."/>
-	<eng-data cg="123.13" f="0.000001" m="7235.8" t="6."/>
-	<eng-data cg="129.71" f="0.000001" m="6673.4" t="7."/>
-	<eng-data cg="135.89" f="0.000001" m="6110.9" t="8."/>
-	<eng-data cg="141.6" f="0.000001" m="5548.4" t="9."/>
-	<eng-data cg="146.76" f="0.000001" m="4986." t="10."/>
+        <eng-data cg="138.66" f="0.000001" m="7417.4" t="0."/>
+	<eng-data cg="144.41" f="0.000001" m="6987.4" t="1."/>
+	<eng-data cg="149.96" f="0.000001" m="6557.3" t="2."/>
+	<eng-data cg="155.27" f="0.000001" m="6127.2" t="3."/>
+	<eng-data cg="160.3" f="0.000001" m="5697.1" t="4."/>
+	<eng-data cg="165.03" f="0.000001" m="5267.1" t="5."/>
+	<eng-data cg="169.39" f="0.000001" m="4837." t="6."/>
+	<eng-data cg="173.33" f="0.000001" m="4406.9" t="7."/>
+	<eng-data cg="176.76" f="0.000001" m="3976.8" t="8."/>
+	<eng-data cg="179.59" f="0.000001" m="3546.8" t="9."/>
+	<eng-data cg="181.69" f="0.000001" m="3116.7" t="10."/>
       </data>
     </engine>
   </engine-list>
